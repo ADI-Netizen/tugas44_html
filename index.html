@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JS DOM</title>
+</head>
+
+<body>
+    <h1>Tugas 44</h1>
+    <p>Jangan Rubah Yang Ini</p>
+    <p>Ubah Warna Yang Ini</p>
+    <button onclick="myFunction()">Ubah Warna</button>
+
+    <script type="text/javascript">
+        function myFunction() {
+            var h = document.getElementsByTagName("p");
+            h.item(1).style.color = "blue";
+        }
+    </script>
+</body>
+
+</html>
